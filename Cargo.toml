@@ -1,0 +1,17 @@
+[package]
+name = "usb_copy"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+pyo3 = "0.18.3"
+libc = "0.2"
+rusb = "0.9.2"
+usb-ids = "1.2023.1"
+
+[lib]
+name = "usbcopy"
+crate-type = ["dylib"]
+
