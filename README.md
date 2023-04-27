@@ -1,2 +1,2 @@
 # usb_copy
-rust and pyrhon to get connected usb devices information
+rust and python to get connected usb devices information
